@@ -1,0 +1,1 @@
+{"textures":{"0":"block/cyan_shulker_box","particle":"block/cyan_shulker_box"},"elements":[{"from":[0,0,8],"to":[16,16,8],"faces":{"north":{"uv":[0,0,16,16],"texture":"#0"},"south":{"uv":[16,0,0,16],"texture":"#0"}}}],"gui_light":"front","display":{"gui":{"translation":[0,0,-80]},"fixed":{"translation":[0,0,0.75]}}}
