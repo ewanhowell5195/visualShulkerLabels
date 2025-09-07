@@ -1,0 +1,51 @@
+{
+  "description": "Visual Shulker Labels\nBy Ewan Howell",
+  "packs": "C:/Users/ewanh/AppData/Roaming/.minecraft/resourcepacks",
+  "source": "1.21.8",
+  "language": "en_us",
+  "colours": [
+    null,
+    "black",
+    "blue",
+    "brown",
+    "cyan",
+    "gray",
+    "green",
+    "light_blue",
+    "light_gray",
+    "lime",
+    "magenta",
+    "orange",
+    "pink",
+    "purple",
+    "red",
+    "white",
+    "yellow"
+  ],
+  "skip": [
+    "air"
+  ],
+  "title_case": [
+    "Smithing Template",
+    "Banner Pattern",
+    "Music Disc"
+  ],
+  "select_prefers_case": [
+    "trident",
+    "spyglass"
+  ],
+  "condition_prefers_true": [],
+  "limited_specials": [
+    "{{colour}}bed",
+    "{{colour}}banner",
+    "decorated_pot",
+    "creeper_head",
+    "dragon_head",
+    "piglin_head",
+    "player_head",
+    "skeleton_skull",
+    "wither_skeleton_skull",
+    "zombie_head",
+    "shield"
+  ]
+}
