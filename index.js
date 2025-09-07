@@ -27,7 +27,7 @@ for (const file of fs.readdirSync(path.join(assets, "items"))) {
     continue
   }
   const definition = JSON.parse(fs.readFileSync(path.join(assets, "items", file)))
-  let name = lang[`block.minecraft.${id}`] ?? lang[`item.minecraft.${id}`]
+  let name = config.new.includes(id) ? (lang[`block.minecraft.${id}.new`] ?? lang[`item.minecraft.${id}.new`]) : lang[`block.minecraft.${id}`] ?? lang[`item.minecraft.${id}`]
   if (config.title_case.includes(name)) {
     name = id.split("_").map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()).join(" ")
   }
