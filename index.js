@@ -39,9 +39,14 @@ for (const file of fs.readdirSync(path.join(assets, "items"))) {
   const data = {
     id,
     name: [
-      name,
-      name.toLowerCase()
+      name
     ]
+  }
+  if (!data.name.includes(name.toLowerCase())) {
+    data.name.push(name.toLowerCase())
+  }
+  if (!data.name.includes(name.toUpperCase())) {
+    data.name.push(name.toUpperCase())
   }
   while (true) {
     if (definition.model.type === "minecraft:select") {
